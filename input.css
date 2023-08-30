@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: iransans;
+  src: url("/assets/fonts/IRANSans.ttf");
+}
+* {
+  font-family: iransans;
+}
+.menu-font-size {
+  font-size: 12px;
+}
+p,
+span {
+  direction: rtl;
+}
+.col {
+  z-index: -2;
+  position: sticky;
+  top: 96px;
+}

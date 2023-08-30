@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>دیوار تهران: مرجع انواع نیازمندی و آگهی‌های نو و دست دو در شهر تهران</title>
+</head>
+
+<body>
+    <!-- mobile -->
+    <!-- mobile top menu -->
+    <nav class="md:hidden bg-white sticky top-0 flex justify-center items-center w-full h-16 shadow-top">
+        <div class="bg-backgray flex flex-row items-center justify-between w-full h-[40px] mx-4 rounded-[5px]">
+            <!-- city -->
+            <div class="flex flex-row justify-center items-center gap-1 ml-2 pr-2">
+                <img src="assets/location.svg" alt="" class="object-fill">
+                <span class="text-maintext">تهران</span>
+                <div class="w-2 h-6 border-subtext border-r-[1px]"></div>
+            </div>
+            <!-- search box -->
+            <div class="flex justify-center items-center gap-3 mr-2">
+                <p class="text-subtext text-right truncate ">جستجو در همهٔ آگهی ها</p>
+                <img src="assets/search.svg" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- mobile categori -->
+    <div
+        class="md:hidden bg-white h-12 flex flex-row-reverse sticky top-16 items-center w-full gap-3 overflow-x-scroll shadow-top p-0">
+        <div class="fixed w-[25px] h-[48px] bg-gradient-to-l from-white to-transparent"></div>
+        <div class="fixed left-0 w-[25px] h-[48px] bg-gradient-to-r from-white to-transparent"></div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box mr-4"> <span
+                class="text-maintext p-2">فیلتر‌ها</span>
+        </div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box"> <span
+                class="text-maintext p-2">دسته‌ها</span>
+        </div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box"> <span
+                class="text-maintext p-2">خودرو‌سواری</span>
+        </div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box"> <span
+                class="text-maintext p-2">فروش‌آپارتمان</span>
+        </div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box"> <span
+                class="text-maintext p-2">اجاره‌آپارتمان</span>
+        </div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box"> <span
+                class="text-maintext p-2">موبایل</span>
+        </div>
+        <div class="flex justify-center items-center h-8 rounded-full shadow-box ml-4"> <span
+                class="text-maintext p-2">صندلی‌ونیمکت</span>
+        </div>
+    </div>
+    <!-- mobile bottom menu -->
+    <nav class="md:hidden grid grid-cols-5 w-full h-14 bg-white fixed bottom-0 shadow-bottom">
+        <!-- item -->
+        <div class="flex flex-col items-center justify-center gap-1">
+            <img src="assets/profile.svg" alt="" class="h-5 w-5">
+            <span class="text-maintext menu-font-size">دیوار من</span>
+        </div>
+        <!-- item -->
+        <div class="flex flex-col items-center justify-center gap-1">
+            <img src="assets/chat.svg" alt="" class="h-5 w-5">
+            <span class="text-maintext menu-font-size">چت</span>
+        </div>
+        <!-- item -->
+        <div class="flex flex-col items-center justify-center gap-1">
+            <img src="assets/add.svg" alt="" class="h-5 w-5">
+            <span class="text-maintext menu-font-size">ثبت اگهی</span>
+        </div>
+        <!-- item -->
+        <div class="flex flex-col items-center justify-center gap-1">
+            <img src="assets/Categories.svg" alt="" class="h-5 w-5">
+            <span class="text-maintext menu-font-size">دسته ها</span>
+        </div>
+        <!-- item -->
+        <div class="flex flex-col items-center justify-center gap-1">
+            <img src="assets/logo.svg" alt="" class="h-6 w-6">
+            <span class="text-selected menu-font-size">آگهی‌ها</span>
+        </div>
+    </nav>
+    <!-- mobile -->
+
+    <!-- desktop -->
+    <!-- top menu -->
+    <nav
+        class="hidden md:flex text-maintext flex-row items-center justify-between sticky top-0 w-full h-16 bg-white shadow-top gap-4 px-4">
+        <div class="flex items-center gap-4">
+            <div class="flex justify-center items-center w-[5.5rem] h-10 rounded-[5px] bg-selected text-white text-sm">
+                ثبت
+                آگهی</div>
+            <span class="text-[12px] px-4">پشتیبانی</span>
+            <div class="flex gap-2">
+                <span class="text-[12px] px-4">چت</span>
+                <img src="assets/comment.svg" alt="">
+            </div>
+            <div class="flex gap-2">
+                <span class="text-[12px] px-4">دیوار من</span>
+                <img src="assets/profile-desk.svg" alt="">
+            </div>
+        </div>
+        <div class="bg-backgray flex flex-row items-center justify-end h-[40px] w-[40%] rounded-[5px]">
+            <div class="flex justify-center items-center gap-3 mr-2">
+                <p class="text-subtext text-sm text-right truncate ">جستجو در همهٔ آگهی ها</p>
+                <img src="assets/search.svg" alt="">
+            </div>
+        </div>
+
+        <div class="flex gap-4 items-center justify-between w-[25%]">
+            <div class="flex gap-2">
+                <img src="assets/arrow.svg" alt="">
+                <span class="text-sm">دسته‌ها</span>
+            </div>
+            <div class="flex gap-2">
+                <span class="text-sm">تهران</span>
+                <img src="assets/location.svg" alt="">
+            </div>
+
+            <div class="w-1 h-6 border-subtext border-r-[1px] mx-2s"></div>
+            <img src="assets/logo.svg" alt="" class="w-11 h-11">
+        </div>
+
+    </nav>
+    <!-- desktop -->
+    <!-- main content -->
+    
+    <div class="flex flex-row-reverse">
+        <div class="hidden md:flex col flex-col h-full items-end w-[30%] px-4 mt-8 mb-4">
+            <div class="flex flex-col items-end w-[100%] h-fit gap-4">
+                <span class="text-[12px] text-#000000de">دسته‌ها</span>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">املاک</span>
+                    <img src="assets/cat1.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">وسیله نقلیه</span>
+                    <img src="assets/cat2.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">کالای دیجیتال</span>
+                    <img src="assets/cat3.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">خانه و آشپزخانه</span>
+                    <img src="assets/cat4.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">خدمات</span>
+                    <img src="assets/cat5.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">وسایل شخصی</span>
+                    <img src="assets/cat6.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">سرگرمی و فراغت</span>
+                    <img src="assets/cat7.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">اجتماعی</span>
+                    <img src="assets/cat8.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">تجهیزات صنعتی</span>
+                    <img src="assets/cat9.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">استخدام</span>
+                    <img src="assets/cat10.svg" alt="">
+                </div>
+                <div class="flex items-center justify-center gap-2 ">
+                    <span class="text-sm text-subtext">رزومه</span>
+                    <img src="assets/resome.svg" alt="">
+                </div>
+                <div class="flex flex-col items-end w-full">
+                    <div class="w-full" style="border-top: 1px solid #a6a6a683;"></div>
+                    <div class="flex items-center justify-end h-[40px]">
+                        <span class="text-[12px]">محل</span>
+                        <img src="assets/span.svg" alt="">
+                    </div>
+                    <div class="w-full" style="border-top: 1px solid #a6a6a683;"></div>
+                    <div class="flex items-center justify-center h-[40px]">
+                        <span class="text-[12px]">قیمت</span>
+                        <img src="assets/span.svg" alt="">
+                    </div>
+                    <div class="w-full" style="border-top: 1px solid #a6a6a683;"></div>
+                    <div class="flex items-center justify-center h-[40px]">
+                        <span class="text-[12px]">وضعیت آگهی</span>
+                        <img src="assets/span.svg" alt="">
+                    </div>
+                    <div class="w-full" style="border-top: 1px solid #a6a6a683;"></div>
+                </div>
+                <div class="flex flex-row gap-4 items-center text-subtext">
+                    <span class="text-[12px]">درباره دیوار</span>
+                    <span class="text-[12px]">دریافت برنامه</span>
+                    <span class="text-[12px]">بلاگ دیوار</span>
+                </div>
+                <div class="flex flex-row gap-4 items-center text-subtext">
+                    <span class="text-[12px]">کسب‌وکارها</span>
+                    <span class="text-[12px]">پشتیبانی و قوانین</span>
+                </div>
+                <div class="flex justify-evenly w-full">
+                    <img src="assets/aparat.svg" alt="">
+                    <img src="assets/linkdin.svg" alt="">
+                    <img src="assets/insta.svg" alt="">
+                    <img src="assets/X.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-col md:items-start">
+            <span class="text-[12px] text-subtext px-4 pt-4">دیوار تهران:‌ انواع آگهی‌ها و خدمات در تهران</span>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center w-full h-fit gap-4 p-4">
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 justify-between w-full p-4 shadow-box">
+                    <img src="assets/ad.jpg" alt="" class="h-[136px] w-[136px] rounded-[5px]">
+                    <div class="flex flex-col justify-between w-full gap-2">
+                        <span class="text-right">رنو تلیسمان E3، مدل 2017</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-right text-subtext text-[12px]">76,000 کیلومتر</span>
+                            <span class="text-right text-subtext text-[12px]">2,550,000,000 تومان</span>
+                            <div class="flex flex-row items-center justify-between gap-1">
+                                <img src="assets/comment.svg" alt="">
+                                <span class="text-right text-subtext text-[12px]"><span class="text-selected">فوری
+                                    </span>در
+                                    آرژانتین</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[40px]"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
